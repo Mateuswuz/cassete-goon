@@ -1160,7 +1160,7 @@ class PlayState extends MusicBeatState
 		add(botplayTxt);
 		
 var creditTxt = new FlxText(876, 648, 348);
-    creditTxt.text = "PORTED BY\nMateuzinho and KarlOMG"; creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+    creditTxt.text = "PORTED BY\nMateuzinhoETheKarl"; creditTxt.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
     creditTxt.scrollFactor.set();
     add(creditTxt);
 		if(ClientPrefs.downScroll) {
@@ -3155,7 +3155,7 @@ var creditTxt = new FlxText(876, 648, 348);
 					var strumX:Float = strumGroup.members[daNote.noteData].x;
 					var strumY:Float = strumGroup.members[daNote.noteData].y;
 					var strumAngle:Float = strumGroup.members[daNote.noteData].angle;
-					tvar strumDirection:Float = strumGroup.members[daNote.noteData].direction;
+					var strumDirection:Float = strumGroup.members[daNote.noteData].direction;
 					var strumAlpha:Float = strumGroup.members[daNote.noteData].alpha;
 					var strumScroll:Bool = strumGroup.members[daNote.noteData].downScroll;
 
